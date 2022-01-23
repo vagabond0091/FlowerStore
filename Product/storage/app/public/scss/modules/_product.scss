@@ -1,0 +1,36 @@
+
+.modal.add.show{
+    display: block;
+}
+.card{
+    margin-right: 20px;
+}
+.modal.update.show{
+    display: block;
+}
+body{
+    // overflow: hidden;
+}
+.modal.singleProduct.show{
+    display: block;
+}
+.image-container{
+    width: 60%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.details-wrapper{
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-container{
+    background-color: #b4b4b4;
+    justify-content: space-between;
+    .product-details{
+        width: 48%;
+    }
+    .product-image{
+        width: 48%;
+    }
+}
